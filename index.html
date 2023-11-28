@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libary</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="libary.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <div class="main-title">
+            <h1>My Libary</h1>
+        </div>
+        <div class="side-bar">
+            <button id="button">Add Book</button>
+        </div>
+        <div class="libary"></div>
+            <form class="user-input">
+                <span id="exit-button" class="material-symbols-outlined">close</span>
+                <h2>Add Book</h2>
+                <input type="text" id="title" placeholder="book title" required>
+                <input type="text" id="author" placeholder="author name " required>
+                <input type="number" id="pages" placeholder="number of pages" required>
+                <div class="checkbox-container">
+                    <label for="myCheckbox" id="read">Have you read book?</label>
+                    <input type="checkbox" id="myCheckbox">
+                </div>
+                    <button type="submit" value="Submit" class="book-submit">Add book to libary</button>
+                </div>
+            </form>
+    </main>
+</body>
+</html>
