@@ -20,9 +20,9 @@
             <form class="user-input">
                 <span id="exit-button" class="material-symbols-outlined">close</span>
                 <h2>Add Book</h2>
-                <input type="text" id="title" placeholder="book title" required>
-                <input type="text" id="author" placeholder="author name " required>
-                <input type="number" id="pages" placeholder="number of pages" required>
+                <input type="text" id="title" placeholder="book title" required maxlength="30">
+                <input type="text" id="author" placeholder="author name " required maxlength="30">
+                <input type="number" id="pages" placeholder="number of pages" required max="99999">
                 <div class="checkbox-container">
                     <label for="myCheckbox" id="read">Have you read book?</label>
                     <input type="checkbox" id="myCheckbox">
